@@ -13,6 +13,8 @@ are from public sources, or track them with [git-lfs](https://git-lfs.github.com
 
 ## Introduction
 
+Test edit for class
+
 This is a final project for the [Comparative Genomics](https://github.com/Yale-EEB723/syllabus) seminar in the spring of 2019. This project (a very brief, ie 1-2 sentence, overview of the project)...
 
 ## The goal
