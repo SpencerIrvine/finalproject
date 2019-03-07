@@ -21,14 +21,27 @@ The specific problem I sought to explore was the amount of molecular divergence 
 
 ## The data
 
-Description of data...
+The data are mitochondrial whole genome sequences for the 6 genera in the tribe Papionina. The Rungwecebus genome is whole, but includes two genes that were used in the initial study that recognized it as a genetically distinct genus (Davenport et al. 2006).
 
 - The data will be drawn from published genomic data on GenBank.
-- Data structure: Nucleotide sequences
+- Data structure: Nucleotide sequences from mitochondrial DNA
+
+Papio: https://www.ncbi.nlm.nih.gov/nuccore/MG787545.1
+
+Theropithecus: https://www.ncbi.nlm.nih.gov/nuccore/FJ785426.1
+
+Lophocebus: https://www.ncbi.nlm.nih.gov/nuccore/KC757401.1
+
+Mandrillus: https://www.ncbi.nlm.nih.gov/nuccore/KT696596
+
+Cercocebus: https://www.ncbi.nlm.nih.gov/nuccore/KT159932
+
+Rungwecebus: https://www.ncbi.nlm.nih.gov/nuccore/DQ381471
+https://www.ncbi.nlm.nih.gov/nuccore/DQ381473.1
 
 ## Background
 What the reader needs to know to understand the project
-The subtribe Papionina within the Old World Monkeys includes the mangabeys and the “baboons,” which includes baboons proper, mandrills and drills, and geladas. The phylogenetic relationships of these taxa are relatively unresolved, especially with the recent discovery of the kipunji, a newly described mangabey that was designated a new genus, Rugwecebus. The current combined molecular and morphological phylogenies agree with the placement of Cercocebus (the semi-terrestrial mangabey) as the sister taxon to Mandrillus, but are uncertain about the relationships of Lophocebus (the arboral mangabey), Papio, Theropithecus, and Rugwecebus.
+The subtribe Papionina within the Old World Monkeys includes the mangabeys and the “baboons,” which includes baboons proper, mandrills and drills, and geladas. The phylogenetic relationships of these taxa are relatively unresolved, especially with the recent discovery of the kipunji, a newly described mangabey that was designated a new genus, Rugwecebus. The current combined molecular and morphological phylogenies agree with the placement of Cercocebus (the semi-terrestrial mangabey) as the sister taxon to Mandrillus, but are uncertain about the relationships of Lophocebus (the arboral mangabey), Papio, Theropithecus, and Rungwecebus.
 
 
 Motivation for the project....
