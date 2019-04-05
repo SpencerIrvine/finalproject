@@ -41,7 +41,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/DQ381473.1
 
 ## Background
 What the reader needs to know to understand the project
-The subtribe Papionina within the Old World Monkeys includes the mangabeys and the “baboons,” which includes baboons proper, mandrills and drills, and geladas. The phylogenetic relationships of these taxa are relatively unresolved, especially with the recent discovery of the kipunji, a newly described mangabey that was designated a new genus, *Rugwecebus* (Davenport et al., 2006). The current combined molecular and morphological phylogenies agree with the placement of *Cercocebus* (the semi-terrestrial mangabey) as the sister taxon to *Mandrillus*, but are uncertain about the relationships of *Lophocebus* (the arboral mangabey), *Papio*, *Theropithecus*, and *Rungwecebus*.
+The subtribe Papionina within the Old World Monkeys includes the mangabeys and the “baboons,” which includes baboons proper, mandrills and drills, and geladas. The phylogenetic relationships of these taxa are relatively unresolved, especially with the recent discovery of the kipunji, a newly described mangabey that was designated a new genus, *Rugwecebus* (Davenport et al., 2006). The current combined molecular and morphological phylogenies agree with the placement of *Cercocebus* (the semi-terrestrial mangabey) as the sister taxon to *Mandrillus*, but are uncertain about the relationships of *Lophocebus* (the arboral mangabey), *Papio*, *Theropithecus*, and *Rungwecebus*. Some molecular studies support a close phylogenetic relationship between *Papio* and *Rungwecebus* (Olsen et al., 2008). Generalized phylogenies combining molecular and morphological results depict a polytomy (Gilbert et al., 2011). Other phylogenetic studies have used nuclear DNA (Perelman et al., 2011) and mitochondrial DNA (Finstermeier et al., 2013) to show Cercopithecine relationships, but without including the kipunji. More recent mitogenomic studies have included *Rungwecebus* in their phylogeny (Liedigk et al, 2014).
 
 
 Motivation for the project....
@@ -51,8 +51,9 @@ How it fits in with other work...
 
 ## Methods
 Compare frequency of nucleotide changes
-Try to quantify differences in the rates of these changes
-Phylogenetic comparative methods
+Compare rates of nucleotide changes using divergence times from Perelman et al. (2011) Finstermeier et al. (2013).
+Use BLAST and MITOS (http://mitos2.bioinf.uni-leipzig.de/index.py) to analyze the mtDNA.
+
 
 
 ## Results
@@ -70,3 +71,15 @@ What are future directions this could go in?
 
 ## References
 Davenport, T. R., Stanley, W. T., Sargis, E. J., De Luca, D. W., Mpunga, N. E., Machaga, S. J., & Olson, L. E. (2006). A new genus of African monkey, Rungwecebus: morphology, ecology, and molecular phylogenetics. Science, 312(5778), 1378-1381.
+
+Finstermeier, K., Zinner, D., Brameier, M., Meyer, M., Kreuz, E., Hofreiter, M., & Roos, C. (2013). A mitogenomic phylogeny of living primates. PLoS One, 8(7), e69504.
+
+Gilbert, C. C., Stanley, W. T., Olson, L. E., Davenport, T. R., & Sargis, E. J. (2011). Morphological systematics of the kipunji (Rungwecebus kipunji) and the ontogenetic development of phylogenetically informative characters in the Papionini. Journal of human evolution, 60(6), 731-745.
+
+Liedigk, R., Roos, C., Brameier, M., & Zinner, D. (2014). Mitogenomics of the Old World monkey tribe Papionini. BMC evolutionary biology, 14(1), 176.
+
+Olson, L. E., Sargis, E. J., Stanley, W. T., Hildebrandt, K. B., & Davenport, T. R. (2008). Additional molecular evidence strongly supports the distinction between the recently described African primate Rungwecebus kipunji (Cercopithecidae, Papionini) and Lophocebus. Molecular phylogenetics and evolution, 48(2), 789-794.
+
+Perelman, P., Johnson, W. E., Roos, C., Seuánez, H. N., Horvath, J. E., Moreira, M. A., ... & Schneider, M. P. C. (2011). A molecular phylogeny of living primates. PLoS genetics, 7(3), e1001342.
+
+Zinner, D., Wertheimer, J., Liedigk, R., Groeneveld, L. F., & Roos, C. (2013). Baboon phylogeny as inferred from complete mitochondrial genomes. American journal of physical anthropology, 150(1), 133-140.
