@@ -25,8 +25,11 @@ The data are mitochondrial DNA sequences for the 7 genera in the tribe Papionini
 *Cercocebus*: https://www.ncbi.nlm.nih.gov/nuccore/KT159932 (whole genome)
 
 *Rungwecebus*: https://www.ncbi.nlm.nih.gov/nuccore/DQ381473.1 (COX1 gene)
+
 https://www.ncbi.nlm.nih.gov/nuccore/DQ381471 (COX2 gene)
+
 https://www.ncbi.nlm.nih.gov/nuccore/GU068086.1 (ND4-ND5 genes, partial sequence)
+
 https://www.ncbi.nlm.nih.gov/nuccore/GU068061.1 (12S ribosomal RNA gene, partial sequence)
 
 The sequence data were downloaded as FASTA files.
@@ -43,35 +46,38 @@ I was motivated to do this project because it seems unusual for there to be so m
 
 Sequence data was downloaded as FASTA files from NCBI and imported into Geneious 2019 1.1, which was then used to analyze the data. I aligned the sequences and built phylogenetic trees using Geneious software. This data also gave me the number of basepair differences between the sequences.
 
-I compared rates of nucleotide changes using divergence times from Finstermeier et al. (2013).
-
+I divided the number of bp differences by 16,500, the approximate length of the complete mitochondrial genome. I then compared rates of nucleotide changes using divergence times from Finstermeier et al. (2013).
 
 
 ## Results
 
-The number of differences in the mtgenomes follow the papionins' proposed evolutionary relationships. There is about 10% difference between the closely related sub-clades and 15% difference between the split within Papionina.
+The number of differences in the mitochondrial genomes follow the papionins' proposed evolutionary relationships. There is about 10% difference between the closely related sub-clades and 15% difference between the split within Papionina.
 
 Based on the COX1 gene, *Rungwecebus* is most closely related to *Papio*, as other molecular studies have found (Olson et al. 2008).
 
 The rate of accumulated basepair differences between the taxa, assuming *Papio* is the most nested within the clade, is greater at the base of the clade than at the tips.
 
+
 ## Assessment
 
 Was it successful in achieving the initial goal?
+
 I successfully compared the mitochondrial genomes of the 7 Papionin genera to determine the number of basepair differences between them and the rate of basepair changes. It was not the most in-depth analysis, but for my level of background, I got a lot out of this project. Getting experience working with genomic data (FASTA files) and using genomic analysis software (Geneious) was also a successful goal of mine for this course.
 
 
 What are the main obstacles encountered?
+
 Learning how to find and use the analysis software. I often didn't really know how to begin, so it took lots of troubleshooting. An issue I has with Geneious was that while I was able to align all of the *Rungwecebus* mitochondrial genes to the *Macaca* mtgenome, I was unable to concatenate the individual genes into one file for downstream analysis. Because of this, I was unable to use all of the *Rungwecebus* genomic data in my comparisons and to create the phylogenetic tree.
 
 
 What would you have done differently?
+
 Take more time to learn the software, and even try to learn how to do the analysis in R. For the analysis itself, I would have liked to get better estimates of the rates, as I'm not sure the values are biologically meaningful.
 
 
 What are future directions this could go in?
-This project could be expanded to include more Cercopithecines to better explain the patterns of divergence within the clade. It could also be expanded to nuclear genomes, as there would be have been more chances for differences to accumulate. This might make it easier to differentiate the Papio-Rungwecebus-Theropithecus-Lophocebus clade.
 
+This project could be expanded to include more Cercopithecines to better explain the patterns of divergence within the clade. It could also be expanded to nuclear genomes, as there would be have been more chances for differences to accumulate. This might make it easier to differentiate the Papio-Rungwecebus-Theropithecus-Lophocebus clade.
 
 
 ## References
