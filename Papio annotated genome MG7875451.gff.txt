@@ -1,3 +1,6 @@
+#Annotated by MITOS Webserver
+
+
 MG7875451	mitfi	tRNA	1	72	7.40000020896e-13	+	.	Name=trnF(gaa)	
 MG7875451	mitfi	rRNA	73	1019	0.0	+	.	Name=rrnS	
 MG7875451	mitfi	tRNA	1020	1088	6.8000001463e-11	+	.	Name=trnV(tac)	
