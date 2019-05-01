@@ -50,9 +50,9 @@ I compared rates of nucleotide changes using divergence times from Finstermeier 
 ## Results
 The number of differences in the mtgenomes follow the papionins' proposed evolutionary relationships. There is about 10% difference between the closely related sub-clades and 15% difference between the split within Papionina.
 
-Based on the COX1 gene, Rungwecebus is most closely related to Papio, as other molecular studies have found (Olson et al. 2008).
+Based on the COX1 gene, *Rungwecebus* is most closely related to *Papio*, as other molecular studies have found (Olson et al. 2008).
 
-The rate of accumulated basepair differences between the taxa, assuming Papio is the most nested within the clade, is greater at the base of the clade than at the tips.
+The rate of accumulated basepair differences between the taxa, assuming *Papio* is the most nested within the clade, is greater at the base of the clade than at the tips.
 
 ## Assessment
 
@@ -61,7 +61,7 @@ I successfully compared the mitochondrial genomes of the 7 Papionin genera to de
 
 
 What are the main obstacles encountered?
-Learning how to find and use the analysis software. I often didn't really know how to begin, so it took lots of troubleshooting. An issue I has with Geneious was that while I was able to align all of the Rungwecebus mitochondrial genes to the Macaca mtgenome, I was unable to concatenate the individual genes into one file for downstream analysis. Because of this, I was unable to use all of the Rungwecebus genomic data in my comparisons and to create the phylogenetic tree.
+Learning how to find and use the analysis software. I often didn't really know how to begin, so it took lots of troubleshooting. An issue I has with Geneious was that while I was able to align all of the *Rungwecebus* mitochondrial genes to the *Macaca* mtgenome, I was unable to concatenate the individual genes into one file for downstream analysis. Because of this, I was unable to use all of the *Rungwecebus* genomic data in my comparisons and to create the phylogenetic tree.
 
 
 What would you have done differently?
