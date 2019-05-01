@@ -1,0 +1,11 @@
+differences,Papio,Mandrillus,Cercocebus,Lophocebus,Theropithecus,kipunji COX1,Macaca
+Papio,,2476,2587,1784,1628,25,2502
+Mandrillus,2476,,1400,2474,2387,87,2245
+Cercocebus,2587,1400,,2615,2491,89,2301
+Lophocebus,1784,2474,2615,,1726,63,2505
+Theropithecus,1628,2387,2491,1726,,67,2419
+kipunji COX1,25,87,89,63,67,,97
+Macaca,2502,2245,2301,2505,2419,97,
+,,,,,,,
+,,,,,,,
+# bp differences  between the genera,,,,,,,
