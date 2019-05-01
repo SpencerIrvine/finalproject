@@ -48,6 +48,7 @@ I compared rates of nucleotide changes using divergence times from Finstermeier 
 
 
 ## Results
+
 The number of differences in the mtgenomes follow the papionins' proposed evolutionary relationships. There is about 10% difference between the closely related sub-clades and 15% difference between the split within Papionina.
 
 Based on the COX1 gene, *Rungwecebus* is most closely related to *Papio*, as other molecular studies have found (Olson et al. 2008).

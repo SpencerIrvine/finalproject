@@ -1,0 +1,35 @@
+differences,Papio,Mandrillus,Cercocebus,Lophocebus,Theropithecus,kipunji COX1,Macaca
+Papio,,2476,2587,1784,1628,25,2502
+Mandrillus,2476,,1400,2474,2387,87,2245
+Cercocebus,2587,1400,,2615,2491,89,2301
+Lophocebus,1784,2474,2615,,1726,63,2505
+Theropithecus,1628,2387,2491,1726,,67,2419
+kipunji COX1,25,87,89,63,67,,97
+Macaca,2502,2245,2301,2505,2419,97,
+,,,,,,,
+# bp differences  between the genera,,,,,,,
+,,,,,,,
+,,,,,,,
+similarities,Papio,Mandrillus,Cercocebus,Lophocebus,Theropithecus,kipunji COX1,Macaca
+Papio,,14114,14020,14807,14933,633,13578
+Mandrillus,14114,,15215,14144,14206,571,13824
+Cercocebus,14020,15215,,14052,14136,569,13778
+Lophocebus,14807,14144,14052,,14867,595,13594
+Theropithecus,14933,14206,14136,14867,,591,13663
+kipunji COX1,633,571,569,595,591,,561
+Macaca,13578,13824,13778,13594,13663,561,
+,,,,,,,
+# bp similarities  between the genera,,,,,,,
+,,,,,,,
+,,,,,,,
+Node,Divergence Time (Ma),Total # bp differences,bp difference / site,Rate (bp/site/Ma),,,
+Macaca - Papio,11.35,2502,0.152,0.0134,,,
+Mandrillus - Papio,10.76,2476,0.15,0.0139,,,
+Mandrillus - Cercocebus,3.95,1400,0.085,0.0215,,,
+Lophocebus - Papio,5.39,1784,0.108,0.0201,,,
+Theropithecus - Papio,4.43,1628,0.099,0.0223,,,
+,,,,,,,
+Divergence time estimate from Finstermeier et al. 2013,,,,,,,
+"Finstermeier, K., Zinner, D., Brameier, M., Meyer, M., Kreuz, E., Hofreiter, M., & Roos, C. (2013). A mitogenomic phylogeny of living primates. PLoS One, 8(7), e69504.",,,,,,,
+,,,,,,,
+bp difference / site is the total number of bp differences divided by 16500 - the approximate average length of the mtgenomes,,,,,,,
