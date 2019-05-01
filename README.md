@@ -33,33 +33,45 @@ The sequence data were downloaded as FASTA files.
 
 ## Background
 
-The subtribe Papionina within the Old World Monkeys includes the mangabeys and the “baboons,” which includes baboons proper, mandrills and drills, and geladas. The phylogenetic relationships of these taxa are relatively unresolved, especially with the recent discovery of the kipunji, a newly described mangabey that was designated a new genus, *Rugwecebus* (Davenport et al., 2006). The current combined molecular and morphological phylogenies agree with the placement of *Cercocebus* (the semi-terrestrial mangabey) as the sister taxon to *Mandrillus*, but are uncertain about the relationships of *Lophocebus* (the arboral mangabey), *Papio*, *Theropithecus*, and *Rungwecebus*. Some molecular studies support a close phylogenetic relationship between *Papio* and *Rungwecebus* (Olsen et al., 2008). Generalized phylogenies combining molecular and morphological results depict a polytomy (Gilbert et al., 2011). Other phylogenetic studies have used nuclear DNA (Perelman et al., 2011) and mitochondrial DNA (Finstermeier et al., 2013) to show Cercopithecine relationships, but without including the kipunji. More recent mitogenomic studies have included *Rungwecebus* in their phylogeny (Liedigk et al, 2014).
+The subtribe Papionina within the Old World Monkeys includes the mangabeys and the “baboons,” which includes baboons proper, mandrills and drills, and geladas. The phylogenetic relationships of these taxa are relatively unresolved, especially with the recent discovery of the kipunji, a newly described mangabey that was designated a new genus, *Rugwecebus* (Davenport et al., 2006). The current combined molecular and morphological phylogenies agree with the placement of *Cercocebus* (the semi-terrestrial mangabey) as the sister taxon to *Mandrillus*, but are uncertain about the relationships of *Lophocebus* (the arboral mangabey), *Papio*, *Theropithecus*, and *Rungwecebus*. Some molecular studies support a close phylogenetic relationship between *Papio* and *Rungwecebus* (Olson et al., 2008). Generalized phylogenies combining molecular and morphological results depict a polytomy (Gilbert et al., 2011). Other phylogenetic studies have used nuclear DNA (Perelman et al., 2011) and mitochondrial DNA (Finstermeier et al., 2013) to show Cercopithecine relationships, but without including the kipunji. More recent mitogenomic studies have included *Rungwecebus* in their phylogeny (Liedigk et al, 2014).
 
 
-Motivation for the project....
-It seems unusual for there to be so much uncertainty in phylogenetic relationships, especially in such a familiar mammalian order such as Primates and with all of the advances in sequencing and phylogeneomics in the recent years. As such, it would be interesting to explore genetic-level differences between these taxa, which might help reveal their evolutionary relationships or explain why it has been difficult to resolve.
+I was motivated to do this project because it seems unusual for there to be so much uncertainty in phylogenetic relationships, especially in such a familiar mammalian order such as Primates and with all of the advances in sequencing and phylogeneomics in the recent years. As such, it would be interesting to explore genetic-level differences between these taxa, which might help reveal their evolutionary relationships or explain why it has been difficult to resolve.
 
 
 ## Methods
 
-Sequence data was downloaded as FASTA files and imported into Geneious 2019 1.1, which was then used to analyze the data. I aligned the sequences and built phylogenetic trees using Geneious software.
-Compare frequency of nucleotide changes
-Compare rates of nucleotide changes using divergence times from Perelman et al. (2011) Finstermeier et al. (2013).
+Sequence data was downloaded as FASTA files from NCBI and imported into Geneious 2019 1.1, which was then used to analyze the data. I aligned the sequences and built phylogenetic trees using Geneious software. This data also gave me the number of basepair differences between the sequences.
+
+I compared rates of nucleotide changes using divergence times from Finstermeier et al. (2013).
 
 
 
 ## Results
+The number of differences in the mtgenomes follow the papionins' proposed evolutionary relationships. There is about 10% difference between the closely related sub-clades and 15% difference between the split within Papionina.
 
+Based on the COX1 gene, Rungwecebus is most closely related to Papio, as other molecular studies have found (Olson et al. 2008).
+
+The rate of accumulated basepair differences between the taxa, assuming Papio is the most nested within the clade, is greater at the base of the clade than at the tips.
 
 ## Assessment
 
 Was it successful in achieving the initial goal?
+I successfully compared the mitochondrial genomes of the 7 Papionin genera to determine the number of basepair differences between them and the rate of basepair changes. It was not the most in-depth analysis, but for my level of background, I got a lot out of this project. Getting experience working with genomic data (FASTA files) and using genomic analysis software (Geneious) was also a successful goal of mine for this course.
+
 
 What are the main obstacles encountered?
+Learning how to find and use the analysis software. I often didn't really know how to begin, so it took lots of troubleshooting. An issue I has with Geneious was that while I was able to align all of the Rungwecebus mitochondrial genes to the Macaca mtgenome, I was unable to concatenate the individual genes into one file for downstream analysis. Because of this, I was unable to use all of the Rungwecebus genomic data in my comparisons and to create the phylogenetic tree.
+
 
 What would you have done differently?
+Take more time to learn the software, and even try to learn how to do the analysis in R. For the analysis itself, I would have liked to get better estimates of the rates, as I'm not sure the values are biologically meaningful.
+
 
 What are future directions this could go in?
+This project could be expanded to include more Cercopithecines to better explain the patterns of divergence within the clade. It could also be expanded to nuclear genomes, as there would be have been more chances for differences to accumulate. This might make it easier to differentiate the Papio-Rungwecebus-Theropithecus-Lophocebus clade.
+
+
 
 ## References
 Davenport, T. R., Stanley, W. T., Sargis, E. J., De Luca, D. W., Mpunga, N. E., Machaga, S. J., & Olson, L. E. (2006). A new genus of African monkey, *Rungwecebus*: morphology, ecology, and molecular phylogenetics. Science, 312(5778), 1378-1381.
